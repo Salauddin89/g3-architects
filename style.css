@@ -6,14 +6,13 @@
 }
 
 body {
-    /* background: rgba(255, 144, 14, 0.1); */
-
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
-main {
-    padding: 0px 80px;
+header,
+.banner-section {
+    background: rgba(255, 144, 14, 0.1);
 }
 
 nav {
@@ -43,6 +42,10 @@ nav {
     color: #424242;
 }
 
+.banner-section {
+    padding: 0px 80px;
+}
+
 .banner-section img {
     width: 100%;
     margin-bottom: 55px;
@@ -56,7 +59,6 @@ nav {
 }
 
 .banner-title {
-
     font-weight: 700;
     font-size: 64px;
 }
@@ -83,6 +85,7 @@ nav {
 .features-section {
     display: flex;
     align-items: center;
+    padding: 0px 80px;
 }
 
 .features-image {
@@ -91,6 +94,16 @@ nav {
     column-gap: 24px;
     row-gap: 24px;
     margin: 75px 80px 155px 0px;
+}
+
+.features-image div {
+    width: 342px;
+    height: 342px;
+}
+
+.features-image div img {
+    width: 95%;
+    height: 95%;
 }
 
 .features-title {
@@ -118,6 +131,7 @@ nav {
 .lovely-features {
     display: flex;
     margin-bottom: 116px;
+    padding: 0px 80px;
 
 }
 
@@ -127,7 +141,6 @@ nav {
 
 .title-vline {
     height: 120px;
-
     border-left: 5px solid #FF900E;
 }
 
@@ -152,23 +165,19 @@ nav {
 }
 
 #experience {
-
-    width: 300px;
-    height: 150px;
     background: #FF900E;
     border-radius: 8px;
     text-align: center;
-    padding: 15px 15px;
+    padding: 30px 10px;
     color: white;
     position: relative;
-    margin: -340px 505px 250px 480px;
+    margin: -340px 505px 250px 500px;
 }
 
 .exp-para {
     font-weight: 500;
     font-size: 25px;
     margin-top: -15px;
-
 }
 
 .title,
@@ -183,6 +192,10 @@ nav {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 100px;
+}
+
+.some-facts {
+    padding: 0px 80px;
 }
 
 .facts-container {
@@ -217,13 +230,13 @@ nav {
 .fact-font-2 {
     font-weight: 600;
     font-size: 20px;
-
 }
 
 .project-container {
     display: flex;
     align-items: center;
     margin-bottom: 100px;
+    padding: 0px 80px;
 }
 
 .Projects-details {
@@ -243,6 +256,10 @@ nav {
     row-gap: 30px;
     margin-left: 50px;
 
+}
+
+.sponsor-section {
+    padding: 0px 80px;
 }
 
 .sponsor-details {
@@ -272,7 +289,6 @@ footer {
     margin-bottom: 254px;
     background: #FFF4E7;
     border-radius: 8px;
-    /* width: 1440px; */
     height: 100px;
 }
 
@@ -283,16 +299,12 @@ footer {
 }
 
 @media screen and (max-width:480px) {
-    main {
-        padding: 0px 20px;
-    }
 
     nav {
         justify-content: center;
         flex-direction: column;
         align-content: center;
         align-items: center;
-
     }
 
     .nav-title {
@@ -307,7 +319,16 @@ footer {
 
     .nav-anchor a {
         padding: 5px;
+    }
 
+    .lovely-features,
+    .features-section,
+    .banner-section,
+    .some-facts,
+    .project-container,
+    .sponsor-section,
+    footer {
+        padding: 0px 10px;
     }
 
     .banner-title {
@@ -333,7 +354,6 @@ footer {
 
     .banner-image img {
         width: 100%;
-
     }
 
     .features-section {
@@ -342,6 +362,16 @@ footer {
 
     .features-image {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .features-image div {
+        width: 300px;
+        height: 300px;
+    }
+
+    .features-image div img {
+        width: 100%;
+        height: 100%;
     }
 
     .features-title,
@@ -362,7 +392,7 @@ footer {
     .features-image img {
         justify-content: center;
         margin-right: 0px;
-        margin-left: 100px;
+        margin-left: 20px;
     }
 
     .lovely-features {
@@ -370,12 +400,12 @@ footer {
     }
 
     .lovely-features-title {
-        font-size: 32px;
-        margin-left: 21px;
+        font-size: 26px;
+        margin-left: 16px;
     }
 
     .title-vline {
-        height: 90px;
+        height: 70px;
         margin-left: 16px;
     }
 
@@ -384,7 +414,6 @@ footer {
     }
 
     #experience {
-
         width: 150px;
         height: 80px;
         background: #FF900E;
@@ -414,7 +443,6 @@ footer {
         margin: 5px;
         border-radius: 4px;
         padding: 20px 16px;
-
     }
 
     .project-container {
@@ -459,11 +487,9 @@ footer {
         margin-bottom: 0px;
         padding: 20px;
         text-align: center;
-
     }
 
     .footer-description {
-
         font-size: 14px;
     }
 }
