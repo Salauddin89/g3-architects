@@ -127,10 +127,19 @@ nav {
     margin-right: 63px;
 }
 
+.title-vline {
+    height: 120px;
+
+    border-left: 5px solid #FF900E;
+
+
+}
+
 
 .lovely-features-title {
     font-weight: 700;
     font-size: 45px;
+    margin-left: 21px;
 }
 
 .features-type-title {
@@ -147,14 +156,16 @@ nav {
 }
 
 #experience {
-    position: absolute;
-    width: 200px;
-    height: 120px;
+
+    width: 300px;
+    height: 150px;
     background: #FF900E;
     border-radius: 8px;
-    padding: 10px 10px;
-    color: black;
-    margin: -300px 498px 0px 660px;
+    text-align: center;
+    padding: 15px 15px;
+    color: white;
+    position: relative;
+    margin: -460px 505px 250px 655px;
 }
 
 .exp-para {
@@ -163,13 +174,15 @@ nav {
 
 }
 
-.title {
+.title,
+.p-title {
     font-weight: 700;
     font-size: 45px;
     margin-bottom: 24px;
 }
 
-.descrip {
+.descrip,
+.p-description {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 100px;
@@ -195,6 +208,22 @@ nav {
 
 }
 
+.container-box:hover {
+    transform: rotate(30deg);
+
+}
+
+.fact-font-1 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.fact-font-2 {
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
 .sponsor-details {
     display: flex;
     justify-content: center;
@@ -209,6 +238,31 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-bottom: 169px;
+}
+
+.project-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.Projects-details {
+    text-align: center;
+    margin-right: 50x;
+}
+
+.projects-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.projects-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-left: 50px;
+
 }
 
 footer {
