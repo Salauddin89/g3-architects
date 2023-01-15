@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
 
+/* <!------------------------------
+      Universal style 
+------------------------------> */
 * {
     margin: 0px;
     padding: 0px;
@@ -10,6 +13,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* <!------------------------------
+              Nav  style 
+------------------------------> */
 header,
 .banner-section {
     background: rgba(255, 144, 14, 0.1);
@@ -42,6 +48,9 @@ nav {
     color: #424242;
 }
 
+/* <!------------------------------
+      Banner style 
+------------------------------> */
 .banner-section {
     padding: 0px 80px;
 }
@@ -82,6 +91,9 @@ nav {
     font-size: 20px;
 }
 
+/* <!------------------------------
+      Features style 
+------------------------------> */
 .features-section {
     display: flex;
     align-items: center;
@@ -128,6 +140,9 @@ nav {
 
 }
 
+/* <!------------------------------
+      Lovely features style 
+------------------------------> */
 .lovely-features {
     display: flex;
     margin-bottom: 116px;
@@ -164,6 +179,9 @@ nav {
     padding: 30px 42px 30px 30px;
 }
 
+/* <!------------------------------
+      Experience div style 
+------------------------------> */
 #experience {
     background: #FF900E;
     border-radius: 8px;
@@ -180,6 +198,19 @@ nav {
     margin-top: -15px;
 }
 
+/* <!------------------------------
+      Some facts style 
+------------------------------> */
+.some-facts {
+    padding: 0px 80px;
+}
+
+.facts-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 180px;
+}
+
 .title,
 .p-title {
     font-weight: 700;
@@ -192,16 +223,6 @@ nav {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 100px;
-}
-
-.some-facts {
-    padding: 0px 80px;
-}
-
-.facts-container {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 180px;
 }
 
 .container-box {
@@ -232,6 +253,9 @@ nav {
     font-size: 20px;
 }
 
+/* <!------------------------------
+      Meaningful extra region  style 
+---------------------------------------> */
 .project-container {
     display: flex;
     align-items: center;
@@ -258,6 +282,9 @@ nav {
 
 }
 
+/* <!------------------------------
+      Sponsor region style 
+------------------------------> */
 .sponsor-section {
     padding: 0px 80px;
 }
@@ -282,6 +309,9 @@ nav {
     filter: grayscale(100%);
 }
 
+/* <!------------------------------
+      Footer style 
+------------------------------> */
 footer {
     display: flex;
     justify-content: center;
@@ -298,8 +328,14 @@ footer {
     color: #424242;
 }
 
+/* <!-----------------------------------------
+      Responsive styles for Mobile device 
+-----------------------------------------------> */
 @media screen and (max-width:480px) {
 
+    /* <!------------------------------
+      nav style 
+------------------------------> */
     nav {
         justify-content: center;
         flex-direction: column;
@@ -331,6 +367,9 @@ footer {
         padding: 0px 10px;
     }
 
+    /* <!------------------------------
+      Banner style 
+------------------------------> */
     .banner-title {
         margin-top: 30px;
         font-size: 32px;
@@ -356,6 +395,9 @@ footer {
         width: 100%;
     }
 
+    /* <!------------------------------
+      features style 
+-----------------------------------> */
     .features-section {
         flex-direction: column-reverse;
     }
@@ -395,6 +437,9 @@ footer {
         margin-left: 20px;
     }
 
+    /* <!------------------------------
+      Lovely features style 
+-----------------------------------> */
     .lovely-features {
         flex-direction: column;
     }
@@ -413,6 +458,9 @@ footer {
         width: 100%;
     }
 
+    /* <!------------------------------
+      Experience div style 
+-----------------------------------> */
     #experience {
         width: 150px;
         height: 80px;
@@ -430,6 +478,9 @@ footer {
         font-size: 15px;
     }
 
+    /* <!------------------------------
+      Some facts style 
+------------------------------> */
     .facts-container {
         flex-direction: column;
         justify-content: center;
@@ -445,6 +496,9 @@ footer {
         padding: 20px 16px;
     }
 
+    /* <!---------------------------------
+      Meaningful extra region style 
+--------------------------------------> */
     .project-container {
         flex-direction: column;
     }
@@ -463,6 +517,9 @@ footer {
         width: 80%;
     }
 
+    /* <!------------------------------
+      Sponsor style 
+------------------------------> */
     .title,
     .descrip {
         margin-left: 20px;
@@ -482,6 +539,9 @@ footer {
         padding: 20px;
     }
 
+    /* <!------------------------------
+      Footer style 
+------------------------------> */
     footer {
         margin-top: 30px;
         margin-bottom: 0px;
